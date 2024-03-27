@@ -1,10 +1,10 @@
 # BME450-project
 
 Title
-    Spike Sorting With Neural Network
+    Maze solving Neural Network
 
 Team Members
-    Jett Messenger(J-Rice88), Delaney Smith(Delaneysmith28), Savannah Northup(TO ADD)
+    Jett Messenger(J-Rice88), Delaney Smith(Delaneysmith28), Savannah Northup(Snorth26)
 
 Project Description
-    This project will take a stream of neural data and will isolate the waveforms of neural spikes. These waveforms, recorded in strings of data between 20 - 30 points long, will then be fed into the neural network that will determine which neuron each waveform belongs to. The dataset used is a simualted Neural response with 3 neurons. For training of the dataset, we will manually perform spike sorting on the dataset to determine the "correct" answers for the training of the network.
+    This project will create a virtual game environment of a random maze and train a Neural Network to solve the maze. The Model will have to traverse the maze earning rewards for going in the right direction and reaching the goal. There will be a key, at another location in the maze that the model will have to collect first before reaching the end. We will adjust the rewards, the learning rate, and other essential parameters of the mdel to potimally solve the maze.
